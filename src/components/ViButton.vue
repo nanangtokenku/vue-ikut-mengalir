@@ -10,7 +10,7 @@ export default {
   },
   methods: {
     showAlert() {
-      alert('Hi');
+      console.log('Hi');
     },
   },
 };
