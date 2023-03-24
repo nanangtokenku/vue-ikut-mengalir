@@ -1,20 +1,23 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="https://vuejs.org/images/logo.png">
-    <HelloWorld msg="Welcome to"/>
-    <HelloWorld msgDetail="ViApp"/>
+    <img alt="Vue logo" src="https://vuejs.org/images/logo.png" />
+    <HelloWorld msg="Welcome To" />
+    <HelloWorld msgDetail="ViApp" />
+    <ViButton judul="PT. AAA" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import ViButton from './components/ViButton.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+    ViButton,
+  },
+};
 </script>
 
 <style>
