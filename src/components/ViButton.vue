@@ -4,13 +4,13 @@
 
 <script>
 export default {
-  name: 'ViButton',
+  name: 'ViButtonName',
   props: {
     judul: String,
   },
   methods: {
     showAlert() {
-      console.log('Hi');
+      alert('Hi');
     },
   },
 };
