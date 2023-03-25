@@ -3,13 +3,15 @@
     <img alt="Vue logo" src="https://vuejs.org/images/logo.png" width="100" />
     <HelloWorld msg="Welcome To" />
     <HelloWorld msgDetail="ViApp" />
-    <ViButton judul="PT. AAA" />
+    <ViButton judul="PT. AAA" class="btn btn-success"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
 import ViButton from './components/ViButton.vue';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
 
 export default {
   name: 'App',
