@@ -1,5 +1,5 @@
 <template>
-  <button @click="showAlert">Say Hello</button>
+  <button @click="fetchData()">Say Hello</button>
 </template>
 
 <script>
@@ -9,8 +9,17 @@ export default {
     judul: String,
   },
   methods: {
-    showAlert() {
-      console.log('Hi');
+    fetchData() {
+      console.log('masuk fungsi');
+      fetch('https://jsonplaceholder.typicode.com/posts/1')
+        .then(function (response) {
+          return response.json();
+        })
+        .then(function (data) {
+          // Example:
+          // where 'title' is a key
+          console.log(data.title);
+        });
     },
   },
 };
