@@ -16,8 +16,6 @@ export default {
           return response.json();
         })
         .then(function (data) {
-          // Example:
-          // where 'title' is a key
           console.log(data.title);
         });
     },

@@ -3,7 +3,7 @@
     <img alt="Vue logo" src="https://vuejs.org/images/logo.png" width="100" />
     <HelloWorld msg="Welcome To" />
     <HelloWorld msgDetail="ViApp" />
-    <ViButton judul="PT. AAA" class="btn btn-success" />
+    <ViButton />
   </div>
 </template>
 
